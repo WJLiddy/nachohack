@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Ableton MajorVersion="5" MinorVersion="10.0_377" SchemaChangeCount="3" Creator="Ableton Live 10.1.9" Revision="758e3a2f6f6390598b388489d358dd799e7bb207">
 	<LiveSet>
-		<NextPointeeId Value="27582" />
+		<NextPointeeId Value="27006" />
 		<OverwriteProtectionNumber Value="2561" />
 		<LomId Value="0" />
 		<LomIdView Value="0" />
@@ -9,7 +9,7 @@
 			<MidiTrack Id="19">
 				<LomId Value="0" />
 				<LomIdView Value="0" />
-				<IsContentSelected Value="true" />
+				<IsContentSelected Value="false" />
 				<EnvelopeModePreferred Value="false" />
 				<TrackDelay>
 					<Value Value="0" />
@@ -50,7 +50,7 @@
 					</AutomationLanes>
 					<ClipEnvelopeChooserViewState>
 						<SelectedDevice Value="8" />
-						<SelectedEnvelope Value="0" />
+						<SelectedEnvelope Value="1" />
 						<PreferModulationVisible Value="true" />
 					</ClipEnvelopeChooserViewState>
 					<AudioInputRouting>
@@ -348,12 +348,12 @@
 											<Envelopes />
 										</Envelopes>
 										<ScrollerTimePreserver>
-											<LeftTime Value="32.106575971500746" />
-											<RightTime Value="56.064354801486573" />
+											<LeftTime Value="2.16396093736767" />
+											<RightTime Value="56.085610524234198" />
 										</ScrollerTimePreserver>
 										<TimeSelection>
-											<AnchorTime Value="55.5" />
-											<OtherTime Value="55.75" />
+											<AnchorTime Value="48" />
+											<OtherTime Value="56" />
 										</TimeSelection>
 										<Legato Value="false" />
 										<Ram Value="false" />
@@ -369,11 +369,11 @@
 										<FollowChanceB Value="0" />
 										<Grid>
 											<FixedNumerator Value="1" />
-											<FixedDenominator Value="8" />
+											<FixedDenominator Value="16" />
 											<GridIntervalPixel Value="20" />
-											<Ntoles Value="3" />
+											<Ntoles Value="2" />
 											<SnapToGrid Value="true" />
-											<Fixed Value="true" />
+											<Fixed Value="false" />
 										</Grid>
 										<FreezeStart Value="0" />
 										<FreezeEnd Value="0" />
@@ -432,8 +432,6 @@
 														<MidiNoteEvent Time="51" Duration="0.25" Velocity="78.4000015" OffVelocity="64" IsEnabled="true" NoteId="69" />
 														<MidiNoteEvent Time="53" Duration="0.25" Velocity="77.6461487" OffVelocity="64" IsEnabled="true" NoteId="70" />
 														<MidiNoteEvent Time="55" Duration="0.25" Velocity="78.4000015" OffVelocity="64" IsEnabled="true" NoteId="71" />
-														<MidiNoteEvent Time="55.333333333333336" Duration="0.333333333333333315" Velocity="85.3714294" OffVelocity="64" IsEnabled="true" NoteId="72" />
-														<MidiNoteEvent Time="55.666666666666664" Duration="0.333333333333333315" Velocity="100" OffVelocity="64" IsEnabled="true" NoteId="73" />
 													</Notes>
 													<MidiKey Value="38" />
 												</KeyTrack>
@@ -442,7 +440,7 @@
 												<EventLists />
 											</PerNoteEventStore>
 											<NoteIdGenerator>
-												<NextId Value="74" />
+												<NextId Value="72" />
 											</NoteIdGenerator>
 										</Notes>
 										<BankSelectCoarse Value="-1" />
@@ -1014,9 +1012,9 @@
 												<HasRelativePath Value="true" />
 												<RelativePathType Value="5" />
 												<RelativePath>
-													<RelativePathElement Id="9" Dir="Devices" />
-													<RelativePathElement Id="10" Dir="Instruments" />
-													<RelativePathElement Id="11" Dir="Drum Rack" />
+													<RelativePathElement Id="6" Dir="Devices" />
+													<RelativePathElement Id="7" Dir="Instruments" />
+													<RelativePathElement Id="8" Dir="Drum Rack" />
 												</RelativePath>
 												<Name Value="" />
 												<Type Value="1" />
@@ -1055,9 +1053,9 @@
 													<HasRelativePath Value="true" />
 													<RelativePathType Value="5" />
 													<RelativePath>
-														<RelativePathElement Id="9" Dir="Devices" />
-														<RelativePathElement Id="10" Dir="Instruments" />
-														<RelativePathElement Id="11" Dir="Drum Rack" />
+														<RelativePathElement Id="6" Dir="Devices" />
+														<RelativePathElement Id="7" Dir="Instruments" />
+														<RelativePathElement Id="8" Dir="Drum Rack" />
 													</RelativePath>
 													<Name Value="" />
 													<Type Value="1" />
@@ -1087,9 +1085,9 @@
 														<HasRelativePath Value="true" />
 														<RelativePathType Value="5" />
 														<RelativePath>
-															<RelativePathElement Id="9" Dir="Devices" />
-															<RelativePathElement Id="10" Dir="Instruments" />
-															<RelativePathElement Id="11" Dir="Drum Rack" />
+															<RelativePathElement Id="6" Dir="Devices" />
+															<RelativePathElement Id="7" Dir="Instruments" />
+															<RelativePathElement Id="8" Dir="Drum Rack" />
 														</RelativePath>
 														<Name Value="" />
 														<Type Value="1" />
@@ -1157,10 +1155,10 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="1" />
 																		<RelativePath>
-																			<RelativePathElement Id="12" Dir="" />
-																			<RelativePathElement Id="13" Dir="" />
-																			<RelativePathElement Id="14" Dir="" />
-																			<RelativePathElement Id="15" Dir="Desktop" />
+																			<RelativePathElement Id="8" Dir="" />
+																			<RelativePathElement Id="9" Dir="" />
+																			<RelativePathElement Id="10" Dir="" />
+																			<RelativePathElement Id="11" Dir="Desktop" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -1246,9 +1244,9 @@
 																				<HasRelativePath Value="true" />
 																				<RelativePathType Value="5" />
 																				<RelativePath>
-																					<RelativePathElement Id="9" Dir="Samples" />
-																					<RelativePathElement Id="10" Dir="Drums" />
-																					<RelativePathElement Id="11" Dir="Snare" />
+																					<RelativePathElement Id="6" Dir="Samples" />
+																					<RelativePathElement Id="7" Dir="Drums" />
+																					<RelativePathElement Id="8" Dir="Snare" />
 																				</RelativePath>
 																				<Name Value="Snare Daisies.aif" />
 																				<Type Value="1" />
@@ -1275,13 +1273,13 @@
 																			<SourceContext>
 																				<SourceContext Id="0">
 																					<OriginalFileRef>
-																						<FileRef Id="4">
+																						<FileRef Id="3">
 																							<HasRelativePath Value="true" />
 																							<RelativePathType Value="5" />
 																							<RelativePath>
-																								<RelativePathElement Id="12" Dir="Samples" />
-																								<RelativePathElement Id="13" Dir="Drums" />
-																								<RelativePathElement Id="14" Dir="Snare" />
+																								<RelativePathElement Id="9" Dir="Samples" />
+																								<RelativePathElement Id="10" Dir="Drums" />
+																								<RelativePathElement Id="11" Dir="Snare" />
 																							</RelativePath>
 																							<Name Value="Snare Daisies.aif" />
 																							<Type Value="1" />
@@ -2200,9 +2198,9 @@
 															<HasRelativePath Value="true" />
 															<RelativePathType Value="5" />
 															<RelativePath>
-																<RelativePathElement Id="9" Dir="Samples" />
-																<RelativePathElement Id="10" Dir="Drums" />
-																<RelativePathElement Id="11" Dir="Snare" />
+																<RelativePathElement Id="6" Dir="Samples" />
+																<RelativePathElement Id="7" Dir="Drums" />
+																<RelativePathElement Id="8" Dir="Snare" />
 															</RelativePath>
 															<Name Value="Snare Daisies.aif" />
 															<Type Value="1" />
@@ -2358,10 +2356,10 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="1" />
 																		<RelativePath>
-																			<RelativePathElement Id="4" Dir="" />
-																			<RelativePathElement Id="5" Dir="" />
-																			<RelativePathElement Id="6" Dir="" />
-																			<RelativePathElement Id="7" Dir="Desktop" />
+																			<RelativePathElement Id="0" Dir="" />
+																			<RelativePathElement Id="1" Dir="" />
+																			<RelativePathElement Id="2" Dir="" />
+																			<RelativePathElement Id="3" Dir="Desktop" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -2447,9 +2445,9 @@
 																				<HasRelativePath Value="true" />
 																				<RelativePathType Value="5" />
 																				<RelativePath>
-																					<RelativePathElement Id="9" Dir="Samples" />
-																					<RelativePathElement Id="10" Dir="Drums" />
-																					<RelativePathElement Id="11" Dir="Hihat" />
+																					<RelativePathElement Id="6" Dir="Samples" />
+																					<RelativePathElement Id="7" Dir="Drums" />
+																					<RelativePathElement Id="8" Dir="Hihat" />
 																				</RelativePath>
 																				<Name Value="Hihat BlackHole Closed 2.wav" />
 																				<Type Value="1" />
@@ -2485,13 +2483,13 @@
 																			<SourceContext>
 																				<SourceContext Id="0">
 																					<OriginalFileRef>
-																						<FileRef Id="3">
+																						<FileRef Id="2">
 																							<HasRelativePath Value="true" />
 																							<RelativePathType Value="5" />
 																							<RelativePath>
-																								<RelativePathElement Id="12" Dir="Samples" />
-																								<RelativePathElement Id="13" Dir="Drums" />
-																								<RelativePathElement Id="14" Dir="Hihat" />
+																								<RelativePathElement Id="9" Dir="Samples" />
+																								<RelativePathElement Id="10" Dir="Drums" />
+																								<RelativePathElement Id="11" Dir="Hihat" />
 																							</RelativePath>
 																							<Name Value="Hihat BlackHole Closed 2.wav" />
 																							<Type Value="1" />
@@ -3417,9 +3415,9 @@
 															<HasRelativePath Value="true" />
 															<RelativePathType Value="5" />
 															<RelativePath>
-																<RelativePathElement Id="9" Dir="Samples" />
-																<RelativePathElement Id="10" Dir="Drums" />
-																<RelativePathElement Id="11" Dir="Hihat" />
+																<RelativePathElement Id="6" Dir="Samples" />
+																<RelativePathElement Id="7" Dir="Drums" />
+																<RelativePathElement Id="8" Dir="Hihat" />
 															</RelativePath>
 															<Name Value="Hihat BlackHole Closed 2.wav" />
 															<Type Value="1" />
@@ -3575,10 +3573,10 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="1" />
 																		<RelativePath>
-																			<RelativePathElement Id="12" Dir="" />
-																			<RelativePathElement Id="13" Dir="" />
-																			<RelativePathElement Id="14" Dir="" />
-																			<RelativePathElement Id="15" Dir="Desktop" />
+																			<RelativePathElement Id="8" Dir="" />
+																			<RelativePathElement Id="9" Dir="" />
+																			<RelativePathElement Id="10" Dir="" />
+																			<RelativePathElement Id="11" Dir="Desktop" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -3664,9 +3662,9 @@
 																				<HasRelativePath Value="true" />
 																				<RelativePathType Value="5" />
 																				<RelativePath>
-																					<RelativePathElement Id="9" Dir="Samples" />
-																					<RelativePathElement Id="10" Dir="Drums" />
-																					<RelativePathElement Id="11" Dir="Kick" />
+																					<RelativePathElement Id="6" Dir="Samples" />
+																					<RelativePathElement Id="7" Dir="Drums" />
+																					<RelativePathElement Id="8" Dir="Kick" />
 																				</RelativePath>
 																				<Name Value="Kick FutureProof.wav" />
 																				<Type Value="1" />
@@ -3693,13 +3691,13 @@
 																			<SourceContext>
 																				<SourceContext Id="0">
 																					<OriginalFileRef>
-																						<FileRef Id="4">
+																						<FileRef Id="3">
 																							<HasRelativePath Value="true" />
 																							<RelativePathType Value="5" />
 																							<RelativePath>
-																								<RelativePathElement Id="12" Dir="Samples" />
-																								<RelativePathElement Id="13" Dir="Drums" />
-																								<RelativePathElement Id="14" Dir="Kick" />
+																								<RelativePathElement Id="9" Dir="Samples" />
+																								<RelativePathElement Id="10" Dir="Drums" />
+																								<RelativePathElement Id="11" Dir="Kick" />
 																							</RelativePath>
 																							<Name Value="Kick FutureProof.wav" />
 																							<Type Value="1" />
@@ -4619,9 +4617,9 @@
 															<HasRelativePath Value="true" />
 															<RelativePathType Value="5" />
 															<RelativePath>
-																<RelativePathElement Id="9" Dir="Samples" />
-																<RelativePathElement Id="10" Dir="Drums" />
-																<RelativePathElement Id="11" Dir="Kick" />
+																<RelativePathElement Id="6" Dir="Samples" />
+																<RelativePathElement Id="7" Dir="Drums" />
+																<RelativePathElement Id="8" Dir="Kick" />
 															</RelativePath>
 															<Name Value="Kick FutureProof.wav" />
 															<Type Value="1" />
@@ -4973,7 +4971,7 @@
 							<AutomationLane Id="0">
 								<SelectedDevice Value="4" />
 								<SelectedEnvelope Value="2" />
-								<IsContentSelected Value="false" />
+								<IsContentSelected Value="true" />
 								<LaneHeight Value="68" />
 							</AutomationLane>
 						</AutomationLanes>
@@ -6084,9 +6082,9 @@
 																				<HasRelativePath Value="true" />
 																				<RelativePathType Value="5" />
 																				<RelativePath>
-																					<RelativePathElement Id="9" Dir="Samples" />
-																					<RelativePathElement Id="10" Dir="Drums" />
-																					<RelativePathElement Id="11" Dir="Snare" />
+																					<RelativePathElement Id="6" Dir="Samples" />
+																					<RelativePathElement Id="7" Dir="Drums" />
+																					<RelativePathElement Id="8" Dir="Snare" />
 																				</RelativePath>
 																				<Name Value="Snare Daisies.aif" />
 																				<Type Value="1" />
@@ -8634,8 +8632,8 @@
 												<HasRelativePath Value="true" />
 												<RelativePathType Value="5" />
 												<RelativePath>
-													<RelativePathElement Id="6" Dir="Sounds" />
-													<RelativePathElement Id="7" Dir="Synth Rhythmic" />
+													<RelativePathElement Id="4" Dir="Sounds" />
+													<RelativePathElement Id="5" Dir="Synth Rhythmic" />
 												</RelativePath>
 												<Name Value="Pitchable Rythm.adg" />
 												<Type Value="1" />
@@ -8674,8 +8672,8 @@
 													<HasRelativePath Value="true" />
 													<RelativePathType Value="5" />
 													<RelativePath>
-														<RelativePathElement Id="6" Dir="Sounds" />
-														<RelativePathElement Id="7" Dir="Synth Rhythmic" />
+														<RelativePathElement Id="4" Dir="Sounds" />
+														<RelativePathElement Id="5" Dir="Synth Rhythmic" />
 													</RelativePath>
 													<Name Value="Pitchable Rythm.adg" />
 													<Type Value="1" />
@@ -8706,8 +8704,8 @@
 														<HasRelativePath Value="true" />
 														<RelativePathType Value="5" />
 														<RelativePath>
-															<RelativePathElement Id="6" Dir="Sounds" />
-															<RelativePathElement Id="7" Dir="Synth Rhythmic" />
+															<RelativePathElement Id="4" Dir="Sounds" />
+															<RelativePathElement Id="5" Dir="Synth Rhythmic" />
 														</RelativePath>
 														<Name Value="Pitchable Rythm.adg" />
 														<Type Value="1" />
@@ -8839,9 +8837,9 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="5" />
 																								<RelativePath>
-																									<RelativePathElement Id="69" Dir="Devices" />
-																									<RelativePathElement Id="70" Dir="Instruments" />
-																									<RelativePathElement Id="71" Dir="Operator" />
+																									<RelativePathElement Id="66" Dir="Devices" />
+																									<RelativePathElement Id="67" Dir="Instruments" />
+																									<RelativePathElement Id="68" Dir="Operator" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -12106,10 +12104,10 @@
 																					<HasRelativePath Value="true" />
 																					<RelativePathType Value="1" />
 																					<RelativePath>
-																						<RelativePathElement Id="56" Dir="" />
-																						<RelativePathElement Id="57" Dir="" />
-																						<RelativePathElement Id="58" Dir="" />
-																						<RelativePathElement Id="59" Dir="Desktop" />
+																						<RelativePathElement Id="52" Dir="" />
+																						<RelativePathElement Id="53" Dir="" />
+																						<RelativePathElement Id="54" Dir="" />
+																						<RelativePathElement Id="55" Dir="Desktop" />
 																					</RelativePath>
 																					<Name Value="" />
 																					<Type Value="1" />
@@ -12243,9 +12241,9 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="5" />
 																								<RelativePath>
-																									<RelativePathElement Id="69" Dir="Devices" />
-																									<RelativePathElement Id="70" Dir="Instruments" />
-																									<RelativePathElement Id="71" Dir="Operator" />
+																									<RelativePathElement Id="66" Dir="Devices" />
+																									<RelativePathElement Id="67" Dir="Instruments" />
+																									<RelativePathElement Id="68" Dir="Operator" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -15481,10 +15479,10 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="1" />
 																								<RelativePath>
-																									<RelativePathElement Id="56" Dir="" />
-																									<RelativePathElement Id="57" Dir="" />
-																									<RelativePathElement Id="58" Dir="" />
-																									<RelativePathElement Id="59" Dir="Desktop" />
+																									<RelativePathElement Id="52" Dir="" />
+																									<RelativePathElement Id="53" Dir="" />
+																									<RelativePathElement Id="54" Dir="" />
+																									<RelativePathElement Id="55" Dir="Desktop" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -15939,10 +15937,10 @@
 																											<HasRelativePath Value="true" />
 																											<RelativePathType Value="1" />
 																											<RelativePath>
-																												<RelativePathElement Id="56" Dir="" />
-																												<RelativePathElement Id="57" Dir="" />
-																												<RelativePathElement Id="58" Dir="" />
-																												<RelativePathElement Id="59" Dir="Desktop" />
+																												<RelativePathElement Id="52" Dir="" />
+																												<RelativePathElement Id="53" Dir="" />
+																												<RelativePathElement Id="54" Dir="" />
+																												<RelativePathElement Id="55" Dir="Desktop" />
 																											</RelativePath>
 																											<Name Value="" />
 																											<Type Value="1" />
@@ -16438,10 +16436,10 @@
 																											<HasRelativePath Value="true" />
 																											<RelativePathType Value="1" />
 																											<RelativePath>
-																												<RelativePathElement Id="56" Dir="" />
-																												<RelativePathElement Id="57" Dir="" />
-																												<RelativePathElement Id="58" Dir="" />
-																												<RelativePathElement Id="59" Dir="Desktop" />
+																												<RelativePathElement Id="52" Dir="" />
+																												<RelativePathElement Id="53" Dir="" />
+																												<RelativePathElement Id="54" Dir="" />
+																												<RelativePathElement Id="55" Dir="Desktop" />
 																											</RelativePath>
 																											<Name Value="" />
 																											<Type Value="1" />
@@ -16752,10 +16750,10 @@
 																					<HasRelativePath Value="true" />
 																					<RelativePathType Value="1" />
 																					<RelativePath>
-																						<RelativePathElement Id="56" Dir="" />
-																						<RelativePathElement Id="57" Dir="" />
-																						<RelativePathElement Id="58" Dir="" />
-																						<RelativePathElement Id="59" Dir="Desktop" />
+																						<RelativePathElement Id="52" Dir="" />
+																						<RelativePathElement Id="53" Dir="" />
+																						<RelativePathElement Id="54" Dir="" />
+																						<RelativePathElement Id="55" Dir="Desktop" />
 																					</RelativePath>
 																					<Name Value="" />
 																					<Type Value="1" />
@@ -16889,9 +16887,9 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="5" />
 																								<RelativePath>
-																									<RelativePathElement Id="69" Dir="Devices" />
-																									<RelativePathElement Id="70" Dir="Instruments" />
-																									<RelativePathElement Id="71" Dir="Operator" />
+																									<RelativePathElement Id="66" Dir="Devices" />
+																									<RelativePathElement Id="67" Dir="Instruments" />
+																									<RelativePathElement Id="68" Dir="Operator" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -20136,10 +20134,10 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="1" />
 																								<RelativePath>
-																									<RelativePathElement Id="56" Dir="" />
-																									<RelativePathElement Id="57" Dir="" />
-																									<RelativePathElement Id="58" Dir="" />
-																									<RelativePathElement Id="59" Dir="Desktop" />
+																									<RelativePathElement Id="52" Dir="" />
+																									<RelativePathElement Id="53" Dir="" />
+																									<RelativePathElement Id="54" Dir="" />
+																									<RelativePathElement Id="55" Dir="Desktop" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -20585,10 +20583,10 @@
 																											<HasRelativePath Value="true" />
 																											<RelativePathType Value="1" />
 																											<RelativePath>
-																												<RelativePathElement Id="56" Dir="" />
-																												<RelativePathElement Id="57" Dir="" />
-																												<RelativePathElement Id="58" Dir="" />
-																												<RelativePathElement Id="59" Dir="Desktop" />
+																												<RelativePathElement Id="52" Dir="" />
+																												<RelativePathElement Id="53" Dir="" />
+																												<RelativePathElement Id="54" Dir="" />
+																												<RelativePathElement Id="55" Dir="Desktop" />
 																											</RelativePath>
 																											<Name Value="" />
 																											<Type Value="1" />
@@ -21084,10 +21082,10 @@
 																											<HasRelativePath Value="true" />
 																											<RelativePathType Value="1" />
 																											<RelativePath>
-																												<RelativePathElement Id="56" Dir="" />
-																												<RelativePathElement Id="57" Dir="" />
-																												<RelativePathElement Id="58" Dir="" />
-																												<RelativePathElement Id="59" Dir="Desktop" />
+																												<RelativePathElement Id="52" Dir="" />
+																												<RelativePathElement Id="53" Dir="" />
+																												<RelativePathElement Id="54" Dir="" />
+																												<RelativePathElement Id="55" Dir="Desktop" />
 																											</RelativePath>
 																											<Name Value="" />
 																											<Type Value="1" />
@@ -21378,9 +21376,9 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="5" />
 																								<RelativePath>
-																									<RelativePathElement Id="69" Dir="Devices" />
-																									<RelativePathElement Id="70" Dir="Audio Effects" />
-																									<RelativePathElement Id="71" Dir="Reverb" />
+																									<RelativePathElement Id="66" Dir="Devices" />
+																									<RelativePathElement Id="67" Dir="Audio Effects" />
+																									<RelativePathElement Id="68" Dir="Reverb" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -21848,10 +21846,10 @@
 																					<HasRelativePath Value="true" />
 																					<RelativePathType Value="1" />
 																					<RelativePath>
-																						<RelativePathElement Id="56" Dir="" />
-																						<RelativePathElement Id="57" Dir="" />
-																						<RelativePathElement Id="58" Dir="" />
-																						<RelativePathElement Id="59" Dir="Desktop" />
+																						<RelativePathElement Id="52" Dir="" />
+																						<RelativePathElement Id="53" Dir="" />
+																						<RelativePathElement Id="54" Dir="" />
+																						<RelativePathElement Id="55" Dir="Desktop" />
 																					</RelativePath>
 																					<Name Value="" />
 																					<Type Value="1" />
@@ -21985,9 +21983,9 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="5" />
 																								<RelativePath>
-																									<RelativePathElement Id="69" Dir="Devices" />
-																									<RelativePathElement Id="70" Dir="Instruments" />
-																									<RelativePathElement Id="71" Dir="Operator" />
+																									<RelativePathElement Id="66" Dir="Devices" />
+																									<RelativePathElement Id="67" Dir="Instruments" />
+																									<RelativePathElement Id="68" Dir="Operator" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -25223,10 +25221,10 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="1" />
 																								<RelativePath>
-																									<RelativePathElement Id="56" Dir="" />
-																									<RelativePathElement Id="57" Dir="" />
-																									<RelativePathElement Id="58" Dir="" />
-																									<RelativePathElement Id="59" Dir="Desktop" />
+																									<RelativePathElement Id="52" Dir="" />
+																									<RelativePathElement Id="53" Dir="" />
+																									<RelativePathElement Id="54" Dir="" />
+																									<RelativePathElement Id="55" Dir="Desktop" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -25672,10 +25670,10 @@
 																											<HasRelativePath Value="true" />
 																											<RelativePathType Value="1" />
 																											<RelativePath>
-																												<RelativePathElement Id="56" Dir="" />
-																												<RelativePathElement Id="57" Dir="" />
-																												<RelativePathElement Id="58" Dir="" />
-																												<RelativePathElement Id="59" Dir="Desktop" />
+																												<RelativePathElement Id="52" Dir="" />
+																												<RelativePathElement Id="53" Dir="" />
+																												<RelativePathElement Id="54" Dir="" />
+																												<RelativePathElement Id="55" Dir="Desktop" />
 																											</RelativePath>
 																											<Name Value="" />
 																											<Type Value="1" />
@@ -26171,10 +26169,10 @@
 																											<HasRelativePath Value="true" />
 																											<RelativePathType Value="1" />
 																											<RelativePath>
-																												<RelativePathElement Id="56" Dir="" />
-																												<RelativePathElement Id="57" Dir="" />
-																												<RelativePathElement Id="58" Dir="" />
-																												<RelativePathElement Id="59" Dir="Desktop" />
+																												<RelativePathElement Id="52" Dir="" />
+																												<RelativePathElement Id="53" Dir="" />
+																												<RelativePathElement Id="54" Dir="" />
+																												<RelativePathElement Id="55" Dir="Desktop" />
 																											</RelativePath>
 																											<Name Value="" />
 																											<Type Value="1" />
@@ -26485,10 +26483,10 @@
 																					<HasRelativePath Value="true" />
 																					<RelativePathType Value="1" />
 																					<RelativePath>
-																						<RelativePathElement Id="56" Dir="" />
-																						<RelativePathElement Id="57" Dir="" />
-																						<RelativePathElement Id="58" Dir="" />
-																						<RelativePathElement Id="59" Dir="Desktop" />
+																						<RelativePathElement Id="52" Dir="" />
+																						<RelativePathElement Id="53" Dir="" />
+																						<RelativePathElement Id="54" Dir="" />
+																						<RelativePathElement Id="55" Dir="Desktop" />
 																					</RelativePath>
 																					<Name Value="" />
 																					<Type Value="1" />
@@ -26622,9 +26620,9 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="5" />
 																								<RelativePath>
-																									<RelativePathElement Id="69" Dir="Devices" />
-																									<RelativePathElement Id="70" Dir="Instruments" />
-																									<RelativePathElement Id="71" Dir="Operator" />
+																									<RelativePathElement Id="66" Dir="Devices" />
+																									<RelativePathElement Id="67" Dir="Instruments" />
+																									<RelativePathElement Id="68" Dir="Operator" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -29878,10 +29876,10 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="1" />
 																								<RelativePath>
-																									<RelativePathElement Id="56" Dir="" />
-																									<RelativePathElement Id="57" Dir="" />
-																									<RelativePathElement Id="58" Dir="" />
-																									<RelativePathElement Id="59" Dir="Desktop" />
+																									<RelativePathElement Id="52" Dir="" />
+																									<RelativePathElement Id="53" Dir="" />
+																									<RelativePathElement Id="54" Dir="" />
+																									<RelativePathElement Id="55" Dir="Desktop" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -30327,10 +30325,10 @@
 																											<HasRelativePath Value="true" />
 																											<RelativePathType Value="1" />
 																											<RelativePath>
-																												<RelativePathElement Id="56" Dir="" />
-																												<RelativePathElement Id="57" Dir="" />
-																												<RelativePathElement Id="58" Dir="" />
-																												<RelativePathElement Id="59" Dir="Desktop" />
+																												<RelativePathElement Id="52" Dir="" />
+																												<RelativePathElement Id="53" Dir="" />
+																												<RelativePathElement Id="54" Dir="" />
+																												<RelativePathElement Id="55" Dir="Desktop" />
 																											</RelativePath>
 																											<Name Value="" />
 																											<Type Value="1" />
@@ -30826,10 +30824,10 @@
 																											<HasRelativePath Value="true" />
 																											<RelativePathType Value="1" />
 																											<RelativePath>
-																												<RelativePathElement Id="56" Dir="" />
-																												<RelativePathElement Id="57" Dir="" />
-																												<RelativePathElement Id="58" Dir="" />
-																												<RelativePathElement Id="59" Dir="Desktop" />
+																												<RelativePathElement Id="52" Dir="" />
+																												<RelativePathElement Id="53" Dir="" />
+																												<RelativePathElement Id="54" Dir="" />
+																												<RelativePathElement Id="55" Dir="Desktop" />
 																											</RelativePath>
 																											<Name Value="" />
 																											<Type Value="1" />
@@ -31140,10 +31138,10 @@
 																					<HasRelativePath Value="true" />
 																					<RelativePathType Value="1" />
 																					<RelativePath>
-																						<RelativePathElement Id="56" Dir="" />
-																						<RelativePathElement Id="57" Dir="" />
-																						<RelativePathElement Id="58" Dir="" />
-																						<RelativePathElement Id="59" Dir="Desktop" />
+																						<RelativePathElement Id="52" Dir="" />
+																						<RelativePathElement Id="53" Dir="" />
+																						<RelativePathElement Id="54" Dir="" />
+																						<RelativePathElement Id="55" Dir="Desktop" />
 																					</RelativePath>
 																					<Name Value="" />
 																					<Type Value="1" />
@@ -31487,10 +31485,10 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="1" />
 																		<RelativePath>
-																			<RelativePathElement Id="56" Dir="" />
-																			<RelativePathElement Id="57" Dir="" />
-																			<RelativePathElement Id="58" Dir="" />
-																			<RelativePathElement Id="59" Dir="Desktop" />
+																			<RelativePathElement Id="52" Dir="" />
+																			<RelativePathElement Id="53" Dir="" />
+																			<RelativePathElement Id="54" Dir="" />
+																			<RelativePathElement Id="55" Dir="Desktop" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -31560,10 +31558,10 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="1" />
 																								<RelativePath>
-																									<RelativePathElement Id="56" Dir="" />
-																									<RelativePathElement Id="57" Dir="" />
-																									<RelativePathElement Id="58" Dir="" />
-																									<RelativePathElement Id="59" Dir="Desktop" />
+																									<RelativePathElement Id="52" Dir="" />
+																									<RelativePathElement Id="53" Dir="" />
+																									<RelativePathElement Id="54" Dir="" />
+																									<RelativePathElement Id="55" Dir="Desktop" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -31633,9 +31631,9 @@
 																														<HasRelativePath Value="true" />
 																														<RelativePathType Value="5" />
 																														<RelativePath>
-																															<RelativePathElement Id="69" Dir="Devices" />
-																															<RelativePathElement Id="70" Dir="Audio Effects" />
-																															<RelativePathElement Id="71" Dir="Vocoder" />
+																															<RelativePathElement Id="66" Dir="Devices" />
+																															<RelativePathElement Id="67" Dir="Audio Effects" />
+																															<RelativePathElement Id="68" Dir="Vocoder" />
 																														</RelativePath>
 																														<Name Value="" />
 																														<Type Value="1" />
@@ -32048,9 +32046,9 @@
 																														<HasRelativePath Value="true" />
 																														<RelativePathType Value="5" />
 																														<RelativePath>
-																															<RelativePathElement Id="69" Dir="Devices" />
-																															<RelativePathElement Id="70" Dir="Audio Effects" />
-																															<RelativePathElement Id="71" Dir="Vocoder" />
+																															<RelativePathElement Id="66" Dir="Devices" />
+																															<RelativePathElement Id="67" Dir="Audio Effects" />
+																															<RelativePathElement Id="68" Dir="Vocoder" />
 																														</RelativePath>
 																														<Name Value="" />
 																														<Type Value="1" />
@@ -32492,10 +32490,10 @@
 																											<HasRelativePath Value="true" />
 																											<RelativePathType Value="1" />
 																											<RelativePath>
-																												<RelativePathElement Id="56" Dir="" />
-																												<RelativePathElement Id="57" Dir="" />
-																												<RelativePathElement Id="58" Dir="" />
-																												<RelativePathElement Id="59" Dir="Desktop" />
+																												<RelativePathElement Id="52" Dir="" />
+																												<RelativePathElement Id="53" Dir="" />
+																												<RelativePathElement Id="54" Dir="" />
+																												<RelativePathElement Id="55" Dir="Desktop" />
 																											</RelativePath>
 																											<Name Value="" />
 																											<Type Value="1" />
@@ -32634,10 +32632,10 @@
 																											<HasRelativePath Value="true" />
 																											<RelativePathType Value="1" />
 																											<RelativePath>
-																												<RelativePathElement Id="56" Dir="" />
-																												<RelativePathElement Id="57" Dir="" />
-																												<RelativePathElement Id="58" Dir="" />
-																												<RelativePathElement Id="59" Dir="Desktop" />
+																												<RelativePathElement Id="52" Dir="" />
+																												<RelativePathElement Id="53" Dir="" />
+																												<RelativePathElement Id="54" Dir="" />
+																												<RelativePathElement Id="55" Dir="Desktop" />
 																											</RelativePath>
 																											<Name Value="" />
 																											<Type Value="1" />
@@ -32937,9 +32935,9 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="5" />
 																								<RelativePath>
-																									<RelativePathElement Id="69" Dir="Devices" />
-																									<RelativePathElement Id="70" Dir="Audio Effects" />
-																									<RelativePathElement Id="71" Dir="Reverb" />
+																									<RelativePathElement Id="66" Dir="Devices" />
+																									<RelativePathElement Id="67" Dir="Audio Effects" />
+																									<RelativePathElement Id="68" Dir="Reverb" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -33761,9 +33759,9 @@
 																								<HasRelativePath Value="true" />
 																								<RelativePathType Value="5" />
 																								<RelativePath>
-																									<RelativePathElement Id="69" Dir="Devices" />
-																									<RelativePathElement Id="70" Dir="Audio Effects" />
-																									<RelativePathElement Id="71" Dir="Saturator" />
+																									<RelativePathElement Id="66" Dir="Devices" />
+																									<RelativePathElement Id="67" Dir="Audio Effects" />
+																									<RelativePathElement Id="68" Dir="Saturator" />
 																								</RelativePath>
 																								<Name Value="" />
 																								<Type Value="1" />
@@ -34068,10 +34066,10 @@
 																					<HasRelativePath Value="true" />
 																					<RelativePathType Value="1" />
 																					<RelativePath>
-																						<RelativePathElement Id="56" Dir="" />
-																						<RelativePathElement Id="57" Dir="" />
-																						<RelativePathElement Id="58" Dir="" />
-																						<RelativePathElement Id="59" Dir="Desktop" />
+																						<RelativePathElement Id="52" Dir="" />
+																						<RelativePathElement Id="53" Dir="" />
+																						<RelativePathElement Id="54" Dir="" />
+																						<RelativePathElement Id="55" Dir="Desktop" />
 																					</RelativePath>
 																					<Name Value="" />
 																					<Type Value="1" />
@@ -34219,10 +34217,10 @@
 																					<HasRelativePath Value="true" />
 																					<RelativePathType Value="1" />
 																					<RelativePath>
-																						<RelativePathElement Id="56" Dir="" />
-																						<RelativePathElement Id="57" Dir="" />
-																						<RelativePathElement Id="58" Dir="" />
-																						<RelativePathElement Id="59" Dir="Desktop" />
+																						<RelativePathElement Id="52" Dir="" />
+																						<RelativePathElement Id="53" Dir="" />
+																						<RelativePathElement Id="54" Dir="" />
+																						<RelativePathElement Id="55" Dir="Desktop" />
 																					</RelativePath>
 																					<Name Value="" />
 																					<Type Value="1" />
@@ -34549,9 +34547,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="60" Dir="Devices" />
-																			<RelativePathElement Id="61" Dir="Audio Effects" />
-																			<RelativePathElement Id="62" Dir="Limiter" />
+																			<RelativePathElement Id="57" Dir="Devices" />
+																			<RelativePathElement Id="58" Dir="Audio Effects" />
+																			<RelativePathElement Id="59" Dir="Limiter" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -34703,10 +34701,10 @@
 															<HasRelativePath Value="true" />
 															<RelativePathType Value="1" />
 															<RelativePath>
-																<RelativePathElement Id="56" Dir="" />
-																<RelativePathElement Id="57" Dir="" />
-																<RelativePathElement Id="58" Dir="" />
-																<RelativePathElement Id="59" Dir="Desktop" />
+																<RelativePathElement Id="52" Dir="" />
+																<RelativePathElement Id="53" Dir="" />
+																<RelativePathElement Id="54" Dir="" />
+																<RelativePathElement Id="55" Dir="Desktop" />
 															</RelativePath>
 															<Name Value="" />
 															<Type Value="1" />
@@ -36379,8 +36377,8 @@
 												<HasRelativePath Value="true" />
 												<RelativePathType Value="5" />
 												<RelativePath>
-													<RelativePathElement Id="6" Dir="Sounds" />
-													<RelativePathElement Id="7" Dir="Synth Rhythmic" />
+													<RelativePathElement Id="4" Dir="Sounds" />
+													<RelativePathElement Id="5" Dir="Synth Rhythmic" />
 												</RelativePath>
 												<Name Value="Waves &amp; Shear.adg" />
 												<Type Value="1" />
@@ -36419,8 +36417,8 @@
 													<HasRelativePath Value="true" />
 													<RelativePathType Value="5" />
 													<RelativePath>
-														<RelativePathElement Id="6" Dir="Sounds" />
-														<RelativePathElement Id="7" Dir="Synth Rhythmic" />
+														<RelativePathElement Id="4" Dir="Sounds" />
+														<RelativePathElement Id="5" Dir="Synth Rhythmic" />
 													</RelativePath>
 													<Name Value="Waves &amp; Shear.adg" />
 													<Type Value="1" />
@@ -36451,8 +36449,8 @@
 														<HasRelativePath Value="true" />
 														<RelativePathType Value="5" />
 														<RelativePath>
-															<RelativePathElement Id="6" Dir="Sounds" />
-															<RelativePathElement Id="7" Dir="Synth Rhythmic" />
+															<RelativePathElement Id="4" Dir="Sounds" />
+															<RelativePathElement Id="5" Dir="Synth Rhythmic" />
 														</RelativePath>
 														<Name Value="Waves &amp; Shear.adg" />
 														<Type Value="1" />
@@ -36520,9 +36518,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Midi Effects" />
-																			<RelativePathElement Id="38" Dir="Velocity" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Midi Effects" />
+																			<RelativePathElement Id="35" Dir="Velocity" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -36704,9 +36702,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Midi Effects" />
-																			<RelativePathElement Id="38" Dir="Chord" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Midi Effects" />
+																			<RelativePathElement Id="35" Dir="Chord" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -36946,9 +36944,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Midi Effects" />
-																			<RelativePathElement Id="38" Dir="Arpeggiator" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Midi Effects" />
+																			<RelativePathElement Id="35" Dir="Arpeggiator" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -39267,9 +39265,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Audio Effects" />
-																			<RelativePathElement Id="38" Dir="Auto Filter" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Audio Effects" />
+																			<RelativePathElement Id="35" Dir="Auto Filter" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -39681,9 +39679,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Audio Effects" />
-																			<RelativePathElement Id="38" Dir="Compressor" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Audio Effects" />
+																			<RelativePathElement Id="35" Dir="Compressor" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -40046,9 +40044,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Audio Effects" />
-																			<RelativePathElement Id="38" Dir="Echo" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Audio Effects" />
+																			<RelativePathElement Id="35" Dir="Echo" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -41241,10 +41239,10 @@
 															<HasRelativePath Value="true" />
 															<RelativePathType Value="1" />
 															<RelativePath>
-																<RelativePathElement Id="34" Dir="" />
-																<RelativePathElement Id="35" Dir="" />
-																<RelativePathElement Id="36" Dir="" />
-																<RelativePathElement Id="37" Dir="Desktop" />
+																<RelativePathElement Id="30" Dir="" />
+																<RelativePathElement Id="31" Dir="" />
+																<RelativePathElement Id="32" Dir="" />
+																<RelativePathElement Id="33" Dir="Desktop" />
 															</RelativePath>
 															<Name Value="" />
 															<Type Value="1" />
@@ -42817,8 +42815,8 @@
 												<HasRelativePath Value="true" />
 												<RelativePathType Value="5" />
 												<RelativePath>
-													<RelativePathElement Id="6" Dir="Sounds" />
-													<RelativePathElement Id="7" Dir="Synth Rhythmic" />
+													<RelativePathElement Id="4" Dir="Sounds" />
+													<RelativePathElement Id="5" Dir="Synth Rhythmic" />
 												</RelativePath>
 												<Name Value="Waves &amp; Shear.adg" />
 												<Type Value="1" />
@@ -42857,8 +42855,8 @@
 													<HasRelativePath Value="true" />
 													<RelativePathType Value="5" />
 													<RelativePath>
-														<RelativePathElement Id="6" Dir="Sounds" />
-														<RelativePathElement Id="7" Dir="Synth Rhythmic" />
+														<RelativePathElement Id="4" Dir="Sounds" />
+														<RelativePathElement Id="5" Dir="Synth Rhythmic" />
 													</RelativePath>
 													<Name Value="Waves &amp; Shear.adg" />
 													<Type Value="1" />
@@ -42889,8 +42887,8 @@
 														<HasRelativePath Value="true" />
 														<RelativePathType Value="5" />
 														<RelativePath>
-															<RelativePathElement Id="6" Dir="Sounds" />
-															<RelativePathElement Id="7" Dir="Synth Rhythmic" />
+															<RelativePathElement Id="4" Dir="Sounds" />
+															<RelativePathElement Id="5" Dir="Synth Rhythmic" />
 														</RelativePath>
 														<Name Value="Waves &amp; Shear.adg" />
 														<Type Value="1" />
@@ -42958,9 +42956,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Midi Effects" />
-																			<RelativePathElement Id="38" Dir="Velocity" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Midi Effects" />
+																			<RelativePathElement Id="35" Dir="Velocity" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -43142,9 +43140,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Midi Effects" />
-																			<RelativePathElement Id="38" Dir="Chord" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Midi Effects" />
+																			<RelativePathElement Id="35" Dir="Chord" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -43384,9 +43382,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Midi Effects" />
-																			<RelativePathElement Id="38" Dir="Arpeggiator" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Midi Effects" />
+																			<RelativePathElement Id="35" Dir="Arpeggiator" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -45705,9 +45703,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Audio Effects" />
-																			<RelativePathElement Id="38" Dir="Auto Filter" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Audio Effects" />
+																			<RelativePathElement Id="35" Dir="Auto Filter" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -46119,9 +46117,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Audio Effects" />
-																			<RelativePathElement Id="38" Dir="Compressor" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Audio Effects" />
+																			<RelativePathElement Id="35" Dir="Compressor" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -46484,9 +46482,9 @@
 																		<HasRelativePath Value="true" />
 																		<RelativePathType Value="5" />
 																		<RelativePath>
-																			<RelativePathElement Id="36" Dir="Devices" />
-																			<RelativePathElement Id="37" Dir="Audio Effects" />
-																			<RelativePathElement Id="38" Dir="Echo" />
+																			<RelativePathElement Id="33" Dir="Devices" />
+																			<RelativePathElement Id="34" Dir="Audio Effects" />
+																			<RelativePathElement Id="35" Dir="Echo" />
 																		</RelativePath>
 																		<Name Value="" />
 																		<Type Value="1" />
@@ -47679,10 +47677,10 @@
 															<HasRelativePath Value="true" />
 															<RelativePathType Value="1" />
 															<RelativePath>
-																<RelativePathElement Id="34" Dir="" />
-																<RelativePathElement Id="35" Dir="" />
-																<RelativePathElement Id="36" Dir="" />
-																<RelativePathElement Id="37" Dir="Desktop" />
+																<RelativePathElement Id="30" Dir="" />
+																<RelativePathElement Id="31" Dir="" />
+																<RelativePathElement Id="32" Dir="" />
+																<RelativePathElement Id="33" Dir="Desktop" />
 															</RelativePath>
 															<Name Value="" />
 															<Type Value="1" />
@@ -51779,11 +51777,11 @@
 		</SceneNames>
 		<Transport>
 			<PhaseNudgeTempo Value="10" />
-			<LoopOn Value="true" />
-			<LoopStart Value="72" />
+			<LoopOn Value="false" />
+			<LoopStart Value="40" />
 			<LoopLength Value="16" />
 			<LoopIsSongStart Value="false" />
-			<CurrentTime Value="76.086621315192744" />
+			<CurrentTime Value="76" />
 			<PunchIn Value="false" />
 			<PunchOut Value="false" />
 			<MetronomeTickDuration Value="0" />
@@ -51808,8 +51806,8 @@
 		</ScaleInformation>
 		<SmpteFormat Value="0" />
 		<TimeSelection>
-			<AnchorTime Value="87.5" />
-			<OtherTime Value="87.75" />
+			<AnchorTime Value="76" />
+			<OtherTime Value="76" />
 		</TimeSelection>
 		<SequencerNavigator>
 			<BeatTimeHelper>
@@ -51842,7 +51840,7 @@
 		<SoloInPlace Value="true" />
 		<CrossfadeCurve Value="2" />
 		<LatencyCompensation Value="2" />
-		<HighlightedTrackIndex Value="0" />
+		<HighlightedTrackIndex Value="1" />
 		<GroovePool>
 			<Grooves />
 		</GroovePool>
